@@ -1,0 +1,11 @@
+{
+  "name": "garde-fous",
+  "description": "Garde-fous de sécurité pour Claude Code : masquage des secrets, confirmation avant envoi, journal d'audit chaîné, veille d'injection de prompt.",
+  "owner": { "name": "Mourad Barkaoui", "url": "https://braiinz.fr" },
+  "plugins": [
+    { "name": "masque-secrets", "source": "./masque-secrets" },
+    { "name": "garde-envoi", "source": "./garde-envoi" },
+    { "name": "journal-audit", "source": "./journal-audit" },
+    { "name": "veille-injection", "source": "./veille-injection" }
+  ]
+}

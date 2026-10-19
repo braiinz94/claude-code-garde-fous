@@ -1,0 +1,6 @@
+{
+  "name": "journal-audit",
+  "version": "0.1.0",
+  "description": "Journal d'audit infalsifiable : une ligne chaînée par appel d'outil (modèle réel, skill, sous-agent, SHA-256 complets, issue), sans contenu en clair ; /audit vérifie la chaîne",
+  "author": { "name": "Mourad Barkaoui" }
+}

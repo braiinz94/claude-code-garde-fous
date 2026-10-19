@@ -1,0 +1,14 @@
+{
+  "name": "garde-envoi",
+  "version": "0.3.0",
+  "description": "Confirmation humaine (boîte de dialogue) avant tout envoi, publication, déploiement ou envoi réseau du terminal (curl/wget avec données, gh api, scp, rsync, ssh, nc) ; partages et changements de visibilité refusés d'office",
+  "author": { "name": "Mourad Barkaoui" },
+  "userConfig": {
+    "hotes": {
+      "type": "string",
+      "title": "Hôtes autorisés",
+      "description": "Hôtes que vous considérez comme attendus, séparés par des virgules (« .exemple.fr » couvre ses sous-domaines). Un envoi vers eux demande quand même confirmation ; la question indique seulement s'ils sont dans la liste.",
+      "default": ""
+    }
+  }
+}

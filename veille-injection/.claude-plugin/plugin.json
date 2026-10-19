@@ -1,0 +1,6 @@
+{
+  "name": "veille-injection",
+  "version": "0.1.0",
+  "description": "Repère les motifs d'injection de prompt dans les sorties web, MCP et fichiers ; ajoute un avertissement pour le modèle, notifie et journalise, sans jamais bloquer ; /injection liste les alertes",
+  "author": { "name": "Mourad Barkaoui" }
+}

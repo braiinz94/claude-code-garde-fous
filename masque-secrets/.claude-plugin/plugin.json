@@ -1,0 +1,15 @@
+{
+  "name": "masque-secrets",
+  "version": "0.2.0",
+  "description": "Repère les secrets (clés, jetons, mots de passe, cookies, codes) dans la conversation avant lecture par le modèle ; observation par défaut, masquage sur décision",
+  "author": { "name": "Mourad Barkaoui" },
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "Mode",
+      "description": "observation : repère et prévient sans rien modifier ; masquage : remplace la valeur du secret avant lecture par le modèle",
+      "default": "observation",
+      "options": ["observation", "masquage"]
+    }
+  }
+}
