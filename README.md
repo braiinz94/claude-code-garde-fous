@@ -19,6 +19,10 @@ Quatre mods de sécurité pour [Claude Code](https://claude.com/claude-code), é
 - **Rien en clair** : aucun secret, argument ni résultat n'est écrit sur disque. Seuls le type, la forme (longueur, familles de caractères) et des empreintes SHA-256 sont notés.
 - **Aucun réseau** : les mods n'appellent aucun service extérieur.
 
+## Référentiels
+
+[MAPPING.md](MAPPING.md) indique à quoi chaque mod contribue dans l'OWASP Top 10 for LLM Applications 2025, le NIST AI RMF 1.0, le guide ANSSI-PA-102 et l'AI Act (cité par analogie), et ce qu'il ne couvre pas. Aucune conformité n'est revendiquée.
+
 ## Installation
 
 ```bash

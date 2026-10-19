@@ -1,5 +1,9 @@
 # Journal des versions
 
+## Non publié
+
+- **MAPPING.md** : correspondance de chaque mod avec l'OWASP LLM Top 10 (2025), le NIST AI RMF 1.0, l'ANSSI-PA-102 et l'AI Act (par analogie), avec une colonne « Ne couvre pas ». Références lues dans les textes officiels le 19/10/2026.
+
 ## 2026-10-19 — première publication
 
 - **masque-secrets 0.2.0** : formats d'éditeurs, secrets reconnus par leur libellé, valeurs exactes des variables d'environnement secrètes courantes, indices de chaînes aléatoires (notés, jamais masqués) ; modes observation et masquage ; `/secrets`.
